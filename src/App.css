@@ -399,7 +399,10 @@ footer {
 
 @media screen and (max-width: 660px) {
   .main-container {
-    height: fit-content;
+    min-height: 70vh;
+  }
+  h4 {
+    font-size: 12vw;
   }
   .nav-container {
     position: relative;
@@ -466,7 +469,7 @@ footer {
   }
   .partner {
   min-width: 80vw;
-  min-height: 50vh;
+  min-height: 45vh;
 }
 .partner img {
   width: 100%;
@@ -475,6 +478,9 @@ footer {
 .artist-card h3 {
   font-size: 8vw;
   transform: translate(0, -10vh);
+}
+.vision-container img {
+  height: auto;
 }
 .overview-card {
   width: 80vw;
@@ -486,7 +492,7 @@ footer {
 }
 .person {
   min-width: 80vw;
-  height: 30vh;
+  height: 25vh;
 }
 .person img {
   width: 50%;
