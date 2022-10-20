@@ -3,7 +3,7 @@ import React from 'react'
 const Tickets = () => {
   return (
     <div className='home-container'>
-      <div className='main-container temporary'>
+      <div className='section-container temporary'>
       <h4>tickets coming soon...!!!</h4>
       <h6>TICKET PRICES:</h6>
       <p>Early Bird- $80 BDS<br/>

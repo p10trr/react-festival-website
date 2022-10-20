@@ -4,7 +4,7 @@ import React from 'react'
 const About = () => {
   return (
    <section className='home-container'>
-    <div className='lineup'>
+    <div className='section-container'>
       <h1 className='heading'>OUR VISION</h1>
       <div className='vision-container'>
         <img src="/assets/barbadosOutline.jpg" alt="view of the sea" />

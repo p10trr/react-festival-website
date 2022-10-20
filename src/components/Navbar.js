@@ -15,7 +15,7 @@ function Navbar() {
   }
   return (
     <div className='nav-container'>
-       <Link to='/' className='link-btn'><h2 className='logo'>SILK ROAD____ <br/> MUSIC FESTIVAL</h2></Link>
+       <Link to='/' className='link-btn' onClick={()=>setToggle(false)}><h2 className='logo'>Silk Road<br/> Music Festival</h2></Link>
         <p className='date'>18 March 2023 <br/> Barbados</p>
         <button className='nav-toggle' onClick={toggleMenu}>{toggle ? <AiOutlineClose/> : <FaBars/>}</button>
         <nav className= {`${toggle ? 'links-container mobile-menu' : 'links-container'}`}>

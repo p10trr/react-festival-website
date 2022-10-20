@@ -1,7 +1,7 @@
 const artists = [
     {
         id:0,
-        image: '/assets/lineup/silkRd.png',
+        image: '/assets/crowd.jpg',
         name: 'SILK ROAD MUSIC FESTIVAL',
         desc: 'MULTI-GENRE SOCIALLY CONSCIOUS',
         tags: 'SOCA | JAZZ | REGGAE | POP | FUNK & SOUL | WORLD MUSIC'

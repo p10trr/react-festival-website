@@ -3,7 +3,7 @@ import data from '../data'
 
 const Lineup = () => {
   return (
-    <section className='lineup-container'>
+    <section className='section-container'>
       <div className='lineup'>
         <h1 className='heading'>PERFORMERS</h1>
         <div className='sponsors'>
